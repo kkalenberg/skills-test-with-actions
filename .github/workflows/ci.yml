@@ -33,3 +33,7 @@ jobs:
         with:
           name: remark-lint-report
           path: public/
+          
+      - uses: taiki-e/install-action@v2
+        with:
+          tool: cargo-hack
